@@ -1,14 +1,17 @@
-import react from 'react';
+import React from 'react';
 import './App.css';
 import wtmw from './assets/wtmw.jpeg';
+import NavBar from './assets/components/NavBar';
+import About from './assets/components/About';
+import Projects from './assets/components/Projects';
 
 function App() {
   return (
-    <div>
-      <div className="bg-black h-96 w-full bg-cover bg-center p-24 z-0">
-        <image src={wtmw} alt=""/>
-      </div>
-    </div>
+    <main className='text-gray-400 bg-gray-900'>
+      <NavBar />
+      <About />
+      <Projects />
+    </main>
   );
 }
 
