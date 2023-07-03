@@ -1,4 +1,4 @@
-//import react from 'react';
+import react from 'react';
 import './App.css';
 import wtmw from './assets/wtmw.jpeg';
 
