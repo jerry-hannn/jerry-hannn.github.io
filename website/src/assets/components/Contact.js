@@ -13,13 +13,14 @@ export default function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        fetch("/", {
+        fetch("https://script.google.com/macros/s/AKfycbwYTSK8qQYOSX6W_GR1IcEVYvwT3Iyb29wD2IG28CxKh1yNmEQjtKqtnv60m3wpyK1IyQ/exec", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", name, email, message }),
         })
             .then(() => alert("Message sent!"))
             .catch((error) => alert(error));
+            
     }
 
     return (
@@ -62,7 +63,7 @@ export default function Contact() {
                 </div>
                 <form 
                     onSubmit={handleSubmit}
-                    netlify
+                    gform
                     name="contact"
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                     <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
