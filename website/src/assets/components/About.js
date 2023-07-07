@@ -24,7 +24,8 @@ export default function About() {
                                 1000,
                                 'I am a Foodie',
                                 1000,
-                                'I am a little tired...'
+                                'I am a little tired...',
+                                1000,
                             ]}
                             speed={30}
                             style={{fontSize: '1em'}}
