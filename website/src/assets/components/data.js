@@ -20,7 +20,14 @@ export const projects = [
         description: "Built using an engine derived from SDL2, my implementation of Wordle allows users to easily update game settings and word configurations.",
         image: require("../wordle.png"),
         link: 'https://github.com/jerry-hannn/Wordle'
-    }
+    },
+    {
+        title: "Olympus",
+        subtitle: "React Native, Tailwind CSS, JavaScript",
+        description: "Olympus is a mobile application that empowers people who lift weights to track, analyze, and share their workouts. I worked here as a Software Engineer Intern in summer of 2023.",
+        image: require("../olympus_logo_word.png"),
+        link: 'https://www.projectolympus.app/'
+    },
     
 ]
 
