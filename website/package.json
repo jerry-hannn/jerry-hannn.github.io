@@ -1,6 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
+  "homepage": "https://jerry-hannn.github.io",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.15",
